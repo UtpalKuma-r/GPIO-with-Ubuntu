@@ -10,8 +10,8 @@ lgpio.gpio_claim_output(h, 14)
 while True:
 # Write a high value
     lgpio.gpio_write(h, 14, 1)
-    time.sleep(1)
     print("ON")
+    time.sleep(1)
 
     # Write a low value
     lgpio.gpio_write(h, 14, 0)
